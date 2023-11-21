@@ -3,6 +3,6 @@ using AWS Systems Manager with login server and delete using ssh login instance,
 Assuming the IAM permissions for the S3 bucket are still insecure, would creating VPC private endpoints for S3 prevent the unauthorized access to the secrets bucket.
 no, using VPC private not prevent
 Will applying default encryption setting to the s3 buckets encrypt the data that already exists?
-No, only new data objects will get affected by the modification.
+No, only new data objects affected with by the modify.
 The changes you made above were done through the console or CLI; describe the outcome if the original cloud formation templates are applied to this environment?
 reset all change with using cli or aws console
